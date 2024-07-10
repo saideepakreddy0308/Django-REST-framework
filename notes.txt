@@ -1,0 +1,10 @@
+Tutorial 4:
+
+1. Code snippets are always associated with a creator
+2. Only authenticated users may create snippets
+3. Only the creater of snippet may update or delete it
+4 Unauthenticated requests should have full read-only access\
+
+add info to model:
+ -- User who creaed snippet
+ 
