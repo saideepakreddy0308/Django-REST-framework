@@ -9,6 +9,6 @@ router.register(r'groups', views.GroupViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),  # includes all urls of both viewsets
-    path('api-auth', include('rest_framework.urls', namespace='rest_framework')) ]  # includes authentication URLs, provided by DRF
-
+    path('api-auth', include('rest_framework.urls', namespace='rest_framework')),  # includes authentication URLs, provided by DRF
+    path('snippet', include('snippet.urls'))]
     # namespace , here it helps in differentiating between different sets of URLs
