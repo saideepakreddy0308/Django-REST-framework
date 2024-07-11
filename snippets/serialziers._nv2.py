@@ -26,3 +26,4 @@ from rest_framework import permissions
 
 # now, to both views
 permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly ]
+
