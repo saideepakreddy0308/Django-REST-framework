@@ -111,3 +111,4 @@ class BookSerializer(serializers.ModelSerializer):
 # In models, it configures database-related options, and other model serializers, it defines how the model fields,
 # should be serialized and deserialized, making it easier to control the API output and input.
 
+
